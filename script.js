@@ -9,7 +9,7 @@ fetch(url).then(response => { return response.json()}).then(data => {
     console.log("WIIIIIIIIIIIIW");
 })
 
-function getData(){
+function getData(data){
     console.log(data);
 
     data.forEach(element => {
