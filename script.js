@@ -1,4 +1,4 @@
-const url = "";
+const url = "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=PLMTdZ61eBnyqzVhegrlKy38Zwzky-eugX&maxResults=50&key=AIzaSyAih1oNskLI8sV9p-yMfCKq2R1d-v6_mh4";
 
 fetch(url).then(response => { return response.json()}).then(data => {
     // console.log(data.items[0].id);
@@ -9,7 +9,7 @@ fetch(url).then(response => { return response.json()}).then(data => {
     console.log("WIIIIIIIIIIIIW");
 })
 
-function getData(data){
+function getData(){
     console.log(data);
 
     data.forEach(element => {
